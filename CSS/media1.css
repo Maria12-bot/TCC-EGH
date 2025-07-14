@@ -1,8 +1,9 @@
 /* === Responsividade geral === */
 @media (max-width: 768px) {
-   body {
-        overflow-x: hidden;
-    }
+  body {
+    overflow-x: hidden;
+  }
+
   .wrapper {
     flex-direction: column;
     align-items: flex-start;
@@ -46,9 +47,10 @@
 
 /* === Para celulares menores (até 480px) === */
 @media (max-width: 480px) {
-   body {
-        overflow-x: hidden;
-    }
+  body {
+    overflow-x: hidden;
+  }
+
   h1 {
     font-size: 1.5rem;
   }
@@ -143,9 +145,10 @@ nav a {
 
 /* ========== Media Queries Específicas ========== */
 @media (min-width: 576px) {
-   body {
-        overflow-x: hidden;
-    }
+  body {
+    overflow-x: hidden;
+  }
+
   .footer-container {
     flex-direction: row;
     text-align: left;
@@ -161,9 +164,10 @@ nav a {
 }
 
 @media (max-width: 768px) {
-   body {
-        overflow-x: hidden;
-    }
+  body {
+    overflow-x: hidden;
+  }
+
   .logo-eco {
     height: 70px;
   }
@@ -186,9 +190,10 @@ nav a {
 }
 
 @media (max-width: 480px) {
-   body {
-        overflow-x: hidden;
-    }
+  body {
+    overflow-x: hidden;
+  }
+
   .logo-eco {
     height: 60px;
   }
@@ -218,9 +223,10 @@ nav a {
 }
 
 @media (max-width: 600px) {
-   body {
-        overflow-x: hidden;
-    }
+  body {
+    overflow-x: hidden;
+  }
+
   .curso-container {
     margin: 1rem;
     width: calc(100% - 2rem);
@@ -239,6 +245,9 @@ nav a {
 }
 
 @media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
   .curso-container {
     padding: 20px;
   }
@@ -256,9 +265,12 @@ nav a {
 /* ================ RESPONSIVIDADE MOBILE ================ */
 /* ================ RESPONSIVIDADE MOBILE ================ */
 @media (max-width: 768px) {
-  /* Ajustes gerais */
   body {
     overflow-x: hidden;
+  }
+
+  /* Ajustes gerais */
+  body {
     font-size: 15px;
   }
 
@@ -324,5 +336,11 @@ nav a {
 
   .social-icons {
     justify-content: center;
+  }
+
+  .footer-container, h4, li, p, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
