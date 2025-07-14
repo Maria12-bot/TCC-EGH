@@ -95,9 +95,16 @@ html {
 }
 
 /* =================== Header =================== */
+#menu1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s ease;
+    z-index: 1000;
+}
+
 header {
     height: 70px;
-    position: sticky;
     top: 0;
     z-index: 1000;
     background: var(--cor-primaria);
@@ -188,6 +195,7 @@ nav a:hover::after {
     width: 100%
 }
 
+
 #toggle-mode {
     background: var(--cor-secundaria);
     /* color: var(--cor-texto-claro); */
@@ -201,6 +209,11 @@ header .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
 }
 
 /* Logo */
@@ -316,7 +329,7 @@ header .wrapper {
     margin-bottom: 3rem;
     flex-wrap: wrap;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid var(--cor-secundaria);
+    border: 1px solid #4176e1;
     background: var(--cor-fundo-claro);
     perspective: 1000px;
 }
@@ -432,7 +445,7 @@ footer {
 /* Icone de Contatos */
 .social-icons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 25px;
     margin-top: 20px;
     font-size: 2rem;
