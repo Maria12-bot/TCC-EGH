@@ -24,7 +24,7 @@ body.dark-mode {
 }
 
 body.dark-mode .curso-container {
-    background-color: #222;
+    background-color: #222222;
 }
 
 body.dark-mode .carousel {
@@ -153,8 +153,6 @@ nav a:hover::after {
 .curso-container p strong {
     color: #2e7d32;
 }
-
-
 
 .curso-container {
     transition: box-shadow 0.3s ease;
